@@ -1,0 +1,596 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1761788619.456038,
+    "records": [
+      {
+        "note": "genesis"
+      }
+    ],
+    "prev_hash": "0",
+    "hash": "ce091d0a8d55bfed8af5adbfd3c1f3bafaa981eb33842bc84779e0ada2168c6f"
+  },
+  {
+    "index": 1,
+    "timestamp": 1761788670.8323462,
+    "records": [
+      {
+        "domain": "srmvalliammai.ac.in",
+        "ip": "127.9.3.2",
+        "added_by": "ui",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      }
+    ],
+    "prev_hash": "ce091d0a8d55bfed8af5adbfd3c1f3bafaa981eb33842bc84779e0ada2168c6f",
+    "hash": "c313db6fd4a09dfa4da69e164c487bea811cd091447c6c08ceb96ebd4644446a"
+  },
+  {
+    "index": 2,
+    "timestamp": 1761789273.0210228,
+    "records": [
+      {
+        "domain": "domain",
+        "ip": "ip",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "digitalocean.com",
+        "ip": "159.203.14.27",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "linode.com",
+        "ip": "136.143.48.12",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "bitbucket.org",
+        "ip": "104.192.143.3",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "atlassian.com",
+        "ip": "104.192.143.3",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "airbnb.com",
+        "ip": "52.54.197.84",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "uber.com",
+        "ip": "52.21.33.10",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "lyft.com",
+        "ip": "52.10.199.86",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "booking.com",
+        "ip": "13.225.108.86",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "tripadvisor.com",
+        "ip": "52.85.11.80",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "skype.com",
+        "ip": "40.90.4.2",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "githubusercontent.com",
+        "ip": "185.199.108.133",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "gstatic.com",
+        "ip": "142.251.33.78",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "cloudflarestatic.com",
+        "ip": "104.16.121.127",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "akamaized.net",
+        "ip": "23.216.7.163",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "fastly.net",
+        "ip": "151.101.1.140",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "akamai.net",
+        "ip": "23.47.166.195",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "edu1.university.edu",
+        "ip": "192.0.2.10",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "mit.edu",
+        "ip": "18.72.0.88",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "stanford.edu",
+        "ip": "171.64.64.10",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "harvard.edu",
+        "ip": "52.3.44.15",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "ox.ac.uk",
+        "ip": "129.67.242.6",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "cam.ac.uk",
+        "ip": "131.111.8.40",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "gov.uk",
+        "ip": "212.58.224.100",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "irs.gov",
+        "ip": "104.93.232.12",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "nasa.gov",
+        "ip": "104.93.224.200",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "who.int",
+        "ip": "104.16.132.229",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "un.org",
+        "ip": "128.0.0.50",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "imdb.com",
+        "ip": "151.101.129.94",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "rottentomatoes.com",
+        "ip": "34.198.73.55",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "hulu.com",
+        "ip": "52.207.61.235",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "hbo.com",
+        "ip": "13.32.125.52",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "espn.com",
+        "ip": "199.181.132.250",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "bleacherreport.com",
+        "ip": "151.101.129.140",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "box.com",
+        "ip": "3.230.126.19",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "asana.com",
+        "ip": "34.199.38.180",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "evernote.com",
+        "ip": "13.35.99.52",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "wetransfer.com",
+        "ip": "52.219.56.39",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "stackprinter.appspot.com",
+        "ip": "172.217.10.113",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "coursera.org",
+        "ip": "35.186.224.25",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "udemy.com",
+        "ip": "52.202.86.1",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "khanacademy.org",
+        "ip": "104.20.29.38",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "edx.org",
+        "ip": "104.20.28.16",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "medium.free.test",
+        "ip": "203.0.113.10",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "example.com",
+        "ip": "93.184.216.34",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "example.org",
+        "ip": "93.184.216.34",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "testsite.local",
+        "ip": "198.51.100.12",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "my-sample-site.com",
+        "ip": "203.0.113.45",
+        "added_by": "csv",
+        "safety": 1.0,
+        "meta": {
+          "reason": "https-ok"
+        }
+      },
+      {
+        "domain": "localdev.test",
+        "ip": "198.51.100.7",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "dev-example.net",
+        "ip": "198.51.100.9",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "private-sample.io",
+        "ip": "192.0.2.45",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "researchlab.example",
+        "ip": "192.0.2.55",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "iot-device.local",
+        "ip": "198.51.100.23",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "vpn-gateway.example",
+        "ip": "198.51.100.29",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "company-internal.test",
+        "ip": "192.0.2.80",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "api.service.local",
+        "ip": "198.51.100.44",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "cdn-service.example",
+        "ip": "203.0.113.66",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "edge-cache.example",
+        "ip": "203.0.113.67",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "legacy-app.example",
+        "ip": "203.0.113.68",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "staging.example",
+        "ip": "203.0.113.69",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "prod.example",
+        "ip": "203.0.113.70",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      },
+      {
+        "domain": "user-dashboard.example",
+        "ip": "203.0.113.71",
+        "added_by": "csv",
+        "safety": 0.0,
+        "meta": {
+          "reason": "no-https"
+        }
+      }
+    ],
+    "prev_hash": "c313db6fd4a09dfa4da69e164c487bea811cd091447c6c08ceb96ebd4644446a",
+    "hash": "8e6381999d7ca038346629a8d36abda1b3c4efd872b1cf1e2a99d2c5a565b55a"
+  }
+]

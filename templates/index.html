@@ -1,0 +1,66 @@
+<!doctype html>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Blockchain DNS Resolver — Admin</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<div class="container">
+<header>
+<h1>Blockchain DNS Resolver</h1>
+<p class="subtitle">Admin panel — import CSV, add domain, view records</p>
+</header>
+
+
+<section class="card">
+<h2>Import domains CSV</h2>
+<form action="/import_csv" method="post" enctype="multipart/form-data" class="form-row">
+<input type="file" name="file" accept="text/csv" />
+<button type="submit" class="btn">Upload CSV</button>
+</form>
+<p class="muted">CSV format: <code>domain,ip</code> per line. Example: <code>example.com,93.184.216.34</code></p>
+</section>
+
+
+<section class="card">
+<h2>Add single domain</h2>
+<form action="/add_domain" method="post" class="form-row">
+<input name="domain" placeholder="example.com" required />
+<input name="ip" placeholder="1.2.3.4" required />
+<button type="submit" class="btn">Add Domain</button>
+</form>
+</section>
+
+
+<section class="card">
+<h2>Records (cached view)</h2>
+<div class="table-wrap">
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>IP</th>
+<th>Safety</th>
+<th>Meta</th>
+</tr>
+</thead>
+<tbody>
+{% for d,r in records.items() %}
+<tr>
+<td class="mono">{{ d }}</td>
+<td class="mono">{{ r.ip }}</td>
+<td>{{ 'Safe' if r.safety>=0.5 else 'Unsafe' }}</td>
+<td class="muted mono">{{ r.meta }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</div>
+</section>
+
+
+<footer>
+<p>PoC — Blockchain-based DNS Resolver · Use for testing only. Add authentication before making public.</p>
+</footer>
+</div>
+</body>
+</html>
